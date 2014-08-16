@@ -1,0 +1,6 @@
+# Carpeta metadata del LPCXpresso
+.metadata/*
+.metadata
+# TODO: Carpeta Ddebug de los proyectos ??? Debug/
+.DS_Store
+
