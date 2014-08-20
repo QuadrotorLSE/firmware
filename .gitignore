@@ -2,5 +2,6 @@
 .metadata/*
 .metadata
 # TODO: Carpeta Ddebug de los proyectos ??? Debug/
+*/Debug/*
 .DS_Store
 
