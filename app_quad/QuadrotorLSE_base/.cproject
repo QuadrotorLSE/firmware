@@ -35,19 +35,19 @@
 									<listOptionValue builtIn="false" value="__CODE_RED"/>
 								</option>
 								<option id="gnu.c.compiler.option.misc.other.482427792" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections" valueType="string"/>
-								<option id="com.crt.advproject.gcc.hdrlib.379352474" name="Use headers for C library" superClass="com.crt.advproject.gcc.hdrlib" value="com.crt.advproject.gcc.hdrlib.newlib" valueType="enumerated"/>
+								<option id="com.crt.advproject.gcc.hdrlib.379352474" name="Library headers" superClass="com.crt.advproject.gcc.hdrlib" value="com.crt.advproject.gcc.hdrlib.newlib" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.include.paths.908566759" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FLC_v2p0_Autopilot/src/rtos/Trace Recorder Library/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FLC_v2p0_Autopilot/src/api/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FLC_v2p0_Autopilot/src/rtos/portable}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FLC_v2p0_Autopilot/src/rtos/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FLC_v2p0_Autopilot/src/drivers}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FLC_v2p0_Autopilot/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FLC_v2p0_Autopilot/src/CMSIS/Core/CM3/CoreSupport}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FLC_v2p0_Autopilot/src/drivers/devices}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FLC_v2p0_Autopilot/src/drivers/peripherals}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FLC_v2p0_Autopilot/src/CMSIS/Core/CM3/DeviceSupport/NXP/LPC17xx}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FLC_v2p0_Autopilot/src/CMSIS/Drivers/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rtos/Trace Recorder Library/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/api/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rtos/portable}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rtos/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/CMSIS/Core/CM3/CoreSupport}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/drivers/devices}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/drivers/peripherals}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/CMSIS/Core/CM3/DeviceSupport/NXP/LPC17xx}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/CMSIS/Drivers/include}&quot;"/>
 								</option>
 								<inputType id="com.crt.advproject.compiler.input.614110834" superClass="com.crt.advproject.compiler.input"/>
 							</tool>
@@ -55,7 +55,7 @@
 								<option id="com.crt.advproject.gas.arch.755593840" name="Architecture" superClass="com.crt.advproject.gas.arch" value="com.crt.advproject.gas.target.cm3" valueType="enumerated"/>
 								<option id="com.crt.advproject.gas.thumb.609464358" name="Thumb mode" superClass="com.crt.advproject.gas.thumb" value="true" valueType="boolean"/>
 								<option id="gnu.both.asm.option.flags.crt.1357175787" name="Assembler flags" superClass="gnu.both.asm.option.flags.crt" value="-c -x assembler-with-cpp -D__NEWLIB__  -DDEBUG -D__CODE_RED" valueType="string"/>
-								<option id="com.crt.advproject.gas.hdrlib.21657575" name="Use headers for C library" superClass="com.crt.advproject.gas.hdrlib" value="com.crt.advproject.gas.hdrlib.newlib" valueType="enumerated"/>
+								<option id="com.crt.advproject.gas.hdrlib.21657575" name="Library headers" superClass="com.crt.advproject.gas.hdrlib" value="com.crt.advproject.gas.hdrlib.newlib" valueType="enumerated"/>
 								<inputType id="com.crt.advproject.assembler.input.850387970" name="Additional Assembly Source Files" superClass="com.crt.advproject.assembler.input"/>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.418387362" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
@@ -70,9 +70,9 @@
 									<listOptionValue builtIn="false" value="-Map=${BuildArtifactFileBaseName}.map"/>
 									<listOptionValue builtIn="false" value="--gc-sections"/>
 								</option>
-								<option id="com.crt.advproject.link.gcc.hdrlib.1626665559" name="Use C library" superClass="com.crt.advproject.link.gcc.hdrlib" value="com.crt.advproject.gcc.link.hdrlib.newlib.nohost" valueType="enumerated"/>
-								<option id="com.crt.advproject.link.gcc.multicore.slave.2018272201" superClass="com.crt.advproject.link.gcc.multicore.slave"/>
-								<option id="com.crt.advproject.link.gcc.multicore.master.userobjs.2049840268" superClass="com.crt.advproject.link.gcc.multicore.master.userobjs" valueType="userObjs"/>
+								<option id="com.crt.advproject.link.gcc.hdrlib.1626665559" name="Library" superClass="com.crt.advproject.link.gcc.hdrlib" value="com.crt.advproject.gcc.link.hdrlib.newlib.nohost" valueType="enumerated"/>
+								<option id="com.crt.advproject.link.gcc.multicore.slave.2018272201" name="Multicore configuration" superClass="com.crt.advproject.link.gcc.multicore.slave"/>
+								<option id="com.crt.advproject.link.gcc.multicore.master.userobjs.2049840268" name="Slave Objects (not visible)" superClass="com.crt.advproject.link.gcc.multicore.master.userobjs" valueType="userObjs"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.101320046" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -126,14 +126,14 @@
 								</option>
 								<option id="gnu.c.compiler.option.misc.other.1430692124" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections" valueType="string"/>
 								<option id="gnu.c.compiler.option.optimization.flags.379636325" name="Other optimization flags" superClass="gnu.c.compiler.option.optimization.flags" value="-Os" valueType="string"/>
-								<option id="com.crt.advproject.gcc.hdrlib.1778317585" name="Use headers for C library" superClass="com.crt.advproject.gcc.hdrlib" value="com.crt.advproject.gcc.hdrlib.newlib" valueType="enumerated"/>
+								<option id="com.crt.advproject.gcc.hdrlib.1778317585" name="Library headers" superClass="com.crt.advproject.gcc.hdrlib" value="com.crt.advproject.gcc.hdrlib.newlib" valueType="enumerated"/>
 								<inputType id="com.crt.advproject.compiler.input.1477036910" superClass="com.crt.advproject.compiler.input"/>
 							</tool>
 							<tool id="com.crt.advproject.gas.exe.release.498615969" name="MCU Assembler" superClass="com.crt.advproject.gas.exe.release">
 								<option id="com.crt.advproject.gas.arch.802233726" name="Architecture" superClass="com.crt.advproject.gas.arch" value="com.crt.advproject.gas.target.cm3" valueType="enumerated"/>
 								<option id="com.crt.advproject.gas.thumb.1928199421" name="Thumb mode" superClass="com.crt.advproject.gas.thumb" value="true" valueType="boolean"/>
 								<option id="gnu.both.asm.option.flags.crt.318651545" name="Assembler flags" superClass="gnu.both.asm.option.flags.crt" value="-c -x assembler-with-cpp -D__NEWLIB__  -DNDEBUG -D__CODE_RED" valueType="string"/>
-								<option id="com.crt.advproject.gas.hdrlib.345365160" name="Use headers for C library" superClass="com.crt.advproject.gas.hdrlib" value="com.crt.advproject.gas.hdrlib.newlib" valueType="enumerated"/>
+								<option id="com.crt.advproject.gas.hdrlib.345365160" name="Library headers" superClass="com.crt.advproject.gas.hdrlib" value="com.crt.advproject.gas.hdrlib.newlib" valueType="enumerated"/>
 								<inputType id="com.crt.advproject.assembler.input.850621548" name="Additional Assembly Source Files" superClass="com.crt.advproject.assembler.input"/>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1903459133" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
@@ -148,8 +148,8 @@
 									<listOptionValue builtIn="false" value="-Map=${BuildArtifactFileBaseName}.map"/>
 									<listOptionValue builtIn="false" value="--gc-sections"/>
 								</option>
-								<option id="com.crt.advproject.link.gcc.hdrlib.754192853" name="Use C library" superClass="com.crt.advproject.link.gcc.hdrlib" value="com.crt.advproject.gcc.link.hdrlib.newlib.nohost" valueType="enumerated"/>
-								<option id="com.crt.advproject.link.gcc.multicore.master.userobjs.1503726099" superClass="com.crt.advproject.link.gcc.multicore.master.userobjs" valueType="userObjs"/>
+								<option id="com.crt.advproject.link.gcc.hdrlib.754192853" name="Library" superClass="com.crt.advproject.link.gcc.hdrlib" value="com.crt.advproject.gcc.link.hdrlib.newlib.nohost" valueType="enumerated"/>
+								<option id="com.crt.advproject.link.gcc.multicore.master.userobjs.1503726099" name="Slave Objects (not visible)" superClass="com.crt.advproject.link.gcc.multicore.master.userobjs" valueType="userObjs"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1332965502" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
